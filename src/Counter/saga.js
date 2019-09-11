@@ -1,5 +1,5 @@
 import { takeEvery, all, fork, put } from "redux-saga/effects";
-import { delay } from "redux-saga";
+import { delay } from "redux-saga/effects";
 import counterActions from "./actions";
 
 const watchCounter = () =>
